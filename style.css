@@ -66,7 +66,7 @@ header i{
 .slider{
     width: 60%; 
     height: 600px; 
-       
+    cursor: pointer;   
     margin-bottom: 30px;
     position: relative;
 }
@@ -99,6 +99,55 @@ header i{
     padding-left: 0;
     padding-top:300px;
 }
+#janela-modal{
+    width: 100%;
+    height: 100%;    
+    position: fixed;
+    left: 0px;
+    top: 0px;  
+     display: none; 
+    background-color: rgba(0, 0, 0, 0.918);
+    overflow: auto;
+}
+#img-modal{
+    margin: auto;
+    display: block;
+    width: 100%;    
+    height: 100vh;
+    object-fit: contain;
+}
+#close-btn{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    z-index: 50;
+}
+#avancarM{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    right: 100px;
+    top: 300px;
+}
+#voltarM{
+    color: white;
+    font-size: 80px;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+#girar{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 600px;
+    left: 650px;    
+}
+
 @media (max-width:400px) {
     header{
         width: 100%;
