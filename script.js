@@ -36,7 +36,7 @@ function voltarModal () {
     }
     imgModal.src = `samia${currentImagesIndex}.jpeg`    
 }
-
+ 
 function avancarModal() {    
     currentImagesIndex++    
     if(currentImagesIndex >= 4){

@@ -177,4 +177,14 @@ header i{
     .slider{
         height: 150px;
     }
+    #avancarM{
+        font-size: 50px;
+        right: 10px;
+        top: 240px;
+    }
+    #voltarM{
+        font-size: 50px;
+        left: 4px;
+        top: 239px;
+    }
 }
